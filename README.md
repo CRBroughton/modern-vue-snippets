@@ -94,10 +94,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
 | `vcomponents`     | Import one component into another within the export statement            |
 | `vimport-export`  | Import one component into another and use it within the export statement |
-| `vmapstate`       | import mapState from Vuex into vue component component                   |
-| `vmapgetters`     | import mapGetters from Vuex into vue component component                 |
-| `vmapmutations`   | import mapMutations from Vuex into vue component component               |
-| `vmapactions`     | import mapActions from Vuex into vue component component                 |
 | `vfilter`         | Vue filter                                                               |
 | `vmixin`          | Create a Vue Mixin                                                       |
 | `vmixin-use`      | Bring a mixin into a component to use                                    |
@@ -105,8 +101,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vimport-lib`     | Import a library                                                         |
 | `vimport-gsap`    | Import GreenSock                                                         |
 | `vanimhook-js`    | Using the Transition component JS hooks in methods                       |
-| `vcommit`         | Commit to Vuex store in methods for mutation                             |
-| `vdispatch`       | Dispatch to Vuex store in methods for action                             |
 | `vtest`           | A simple unit testing component                                          |
 
 ### Vue Composition API
@@ -132,18 +126,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted              |
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
 | `v3useinoptions`    | Use Composition API in Options API                    |
-
-### Vuex
-
-| Snippet         | Purpose                        |
-| --------------- | ------------------------------ |
-| `vstore`        | Base for Vuex store.js         |
-| `vgetter`       | Vuex Getter                    |
-| `vmutation`     | Vuex Mutation                  |
-| `vaction`       | Vuex Action                    |
-| `vmodule`       | Vuex Module                    |
-| `vstore-import` | Import vuex store into main.js |
-| `vstore2`       | Updated Base for Vuex store    |
 
 ### Pinia
 

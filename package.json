@@ -53,10 +53,6 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/vue-script-vuex.json"
-      },
-      {
-        "language": "javascript",
         "path": "./snippets/vue-script-router.json"
       },
       {
