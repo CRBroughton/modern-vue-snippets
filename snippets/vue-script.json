@@ -226,18 +226,14 @@
     ],
     "description": "vue.config.js"
   },
-  "Vue Composition API - defineProps with Interface": {
-    "prefix": "v3props",
+  "Vue Composition API - defineProps": {
+    "prefix": "vprops",
     "body": [
-      "interface Props {",
-      "\t${1:msg: string}",
-      "}",
-      "",
       "// For default values for your props, use :",
-      "// withDefaults(defineProps<Props>(), { msg: 'myDefaultValue' })}",
-      "const props = defineProps<Props>()"
+      "// withDefaults(defineProps<{ msg: string }>(), { msg: 'myDefaultValue' })}",
+      "const props = defineProps<{ msg: string }>()"
     ],
-    "description": "Vue Composition api - defineProps with Interface"
+    "description": "Vue Composition api - defineProps"
   },
   "Vue Composition API - defineEmits": {
     "prefix": "v3emits",
